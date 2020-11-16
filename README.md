@@ -9,9 +9,9 @@ Q是query的缩写，K是key的缩写，V是value的缩写。Query指的是当�
 ![Image text](https://github.com/Wfast/RNN_Learn/blob/main/Attention_images/Compute.PNG)
 
 这里有必要解释一下相应符号所代表的意思。
-C<sub>i所代表的就是一个含有上下文所有信息的向量，同时根据注意力模型的性质，更加注意与之相对应的输入Vector。
-a<sub>i,j代表了每个输入隐藏层的权重的比重，当然softmax函数是使强的更强，弱的更弱。
-e<sub>ij所代表的就是decoder上个隐藏层输出和输入隐藏层的点积。
+C<sub>i</sub>所代表的就是一个含有上下文所有信息的向量，同时根据注意力模型的性质，更加注意与之相对应的输入Vector。
+a<sub>i,j</sub>代表了每个输入隐藏层的权重的比重，当然softmax函数是使强的更强，弱的更弱。
+e<sub>ij</sub>所代表的就是decoder上个隐藏层输出和输入隐藏层的点积。
 ## self-attention
    self-attention,就是一个向量乘以它的转职。对于词的Embeding Vector来讲，就是每个词与其他词的关系。也成为协方差矩阵。
    
